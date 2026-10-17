@@ -1,0 +1,13 @@
+{
+  "name": "hotel-hub-root",
+  "version": "1.0.0",
+  "description": "Hotel List Page - Full Stack React + Redux + Node.js + PostgreSQL",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "start": "start.bat",
+    "start:db": "postgres -D C:\\Users\\Suganya\\pgdata_18",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev",
+    "test:api": "cd server && node test_e2e.js"
+  }
+}
